@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E23768312E8F0EF100222D7B /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = E23768302E8F0EF100222D7B /* SFSafeSymbols */; };
+		E2CF42352E8B2EE80047CBD5 /* StateModel in Frameworks */ = {isa = PBXBuildFile; productRef = E2CF42342E8B2EE80047CBD5 /* StateModel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E2CF42142E8B2ECB0047CBD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,16 +40,6 @@
 			path = StateModelExample;
 			sourceTree = "<group>";
 		};
-		E2CF42162E8B2ECB0047CBD5 /* StateModelExampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StateModelExampleTests;
-			sourceTree = "<group>";
-		};
-		E2CF42202E8B2ECB0047CBD5 /* StateModelExampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StateModelExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23768312E8F0EF100222D7B /* SFSafeSymbols in Frameworks */,
+				E2CF42352E8B2EE80047CBD5 /* StateModel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				E2CF42082E8B2EC90047CBD5 /* StateModelExample */,
-				E2CF42162E8B2ECB0047CBD5 /* StateModelExampleTests */,
-				E2CF42202E8B2ECB0047CBD5 /* StateModelExampleUITests */,
 				E2CF42072E8B2EC90047CBD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +107,8 @@
 			);
 			name = StateModelExample;
 			packageProductDependencies = (
+				E2CF42342E8B2EE80047CBD5 /* StateModel */,
+				E23768302E8F0EF100222D7B /* SFSafeSymbols */,
 			);
 			productName = StateModelExample;
 			productReference = E2CF42062E8B2EC90047CBD5 /* StateModelExample.app */;
@@ -129,9 +126,6 @@
 			);
 			dependencies = (
 				E2CF42152E8B2ECB0047CBD5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E2CF42162E8B2ECB0047CBD5 /* StateModelExampleTests */,
 			);
 			name = StateModelExampleTests;
 			packageProductDependencies = (
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				E2CF421F2E8B2ECB0047CBD5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E2CF42202E8B2ECB0047CBD5 /* StateModelExampleUITests */,
 			);
 			name = StateModelExampleUITests;
 			packageProductDependencies = (
@@ -195,6 +186,10 @@
 			);
 			mainGroup = E2CF41FD2E8B2EC90047CBD5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E2CF42332E8B2EE80047CBD5 /* XCRemoteSwiftPackageReference "StateModel" */,
+				E237682F2E8F0EF100222D7B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E2CF42072E8B2EC90047CBD5 /* Products */;
 			projectDirPath = "";
@@ -573,6 +568,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E237682F2E8F0EF100222D7B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		E2CF42332E8B2EE80047CBD5 /* XCRemoteSwiftPackageReference "StateModel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/christophhagen/StateModel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E23768302E8F0EF100222D7B /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E237682F2E8F0EF100222D7B /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+		E2CF42342E8B2EE80047CBD5 /* StateModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2CF42332E8B2EE80047CBD5 /* XCRemoteSwiftPackageReference "StateModel" */;
+			productName = StateModel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2CF41FE2E8B2EC90047CBD5 /* Project object */;
 }

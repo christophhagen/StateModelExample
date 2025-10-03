@@ -1,0 +1,33 @@
+{
+  "originHash" : "bdda805a74417b384cc1db8eae964a4a6d0e5a316b2fccfc35baad604d9338f2",
+  "pins" : [
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols",
+      "state" : {
+        "revision" : "3dd282d3269b061853a3b3bcd23a509d2aa166ce",
+        "version" : "6.2.0"
+      }
+    },
+    {
+      "identity" : "statemodel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/christophhagen/StateModel",
+      "state" : {
+        "revision" : "1b443eef313939fd1b784e457faeb1914fddc93c",
+        "version" : "5.1.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+        "version" : "601.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
