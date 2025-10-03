@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E23768312E8F0EF100222D7B /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = E23768302E8F0EF100222D7B /* SFSafeSymbols */; };
+		E237684F2E8FF5FC00222D7B /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E237684E2E8FF5F700222D7B /* Readme.md */; };
 		E2CF42352E8B2EE80047CBD5 /* StateModel in Frameworks */ = {isa = PBXBuildFile; productRef = E2CF42342E8B2EE80047CBD5 /* StateModel */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E237684E2E8FF5F700222D7B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.md; sourceTree = "<group>"; };
 		E2CF42062E8B2EC90047CBD5 /* StateModelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateModelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF42132E8B2ECB0047CBD5 /* StateModelExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateModelExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF421D2E8B2ECB0047CBD5 /* StateModelExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateModelExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 		E2CF41FD2E8B2EC90047CBD5 = {
 			isa = PBXGroup;
 			children = (
+				E237684E2E8FF5F700222D7B /* Readme.md */,
 				E2CF42082E8B2EC90047CBD5 /* StateModelExample */,
 				E2CF42072E8B2EC90047CBD5 /* Products */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E237684F2E8FF5FC00222D7B /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
