@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/christophhagen/StateModel",
       "state" : {
-        "revision" : "1b443eef313939fd1b784e457faeb1914fddc93c",
-        "version" : "5.1.0"
+        "revision" : "2c595f5da703a3e3696f0192b5fb10fb1ecdd291",
+        "version" : "6.0.0"
       }
     },
     {
